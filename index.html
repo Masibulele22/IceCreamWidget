@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/IceCreamWidget.css">
+    <link href="./tests/IceCreamWidget.tests.js">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Anton|Baloo|Bangers|Barlow+Condensed|Ceviche+One|Lilita+One|Luckiest+Guy|Noto+Sans+SC|Pacifico|Permanent+Marker|Racing+Sans+One|Rajdhani|Ropa+Sans|Rye|Secular+One|Sigmar+One|Tangerine|Zhi+Mang+Xing&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="widgetHeading">Ice Cream Widget</div>
+
+    <div class="flavourChoice"><div class="flavourHeading">Choose Your Flavour!</div>
+                
+        <input type="radio" name="flavour" class="vanillaButton" value="12">Vanilla R 12.00
+        <input type="radio" name="flavour" class="chocolateButton" value="14">Chocolate R 14.00    
+        <input type="radio" name="flavour" class="strawberryButton" value="16">Strawberry R 16.00
+    
+    </div>
+
+    <div class="containerChoice"><div class="containerHeading">Choose Your Container!</div> 
+        
+        <input type="radio" name="container" class="plainConeButton" value="9">Plain Cone R 9.00
+        <input type="radio" name="container" class="sugarConeButton" value="8">Sugar Cone R 8.00
+        <input type="radio" name="container" class="paperCupButton" value="7">Paper Cup R 7.00
+    
+    </div>
+
+    <div class="toppingsChoice"><div class="toppingsHeading">Choose Your Toppings!</div>
+
+        <input name="toppings" class="peanutsButton" type="checkbox" value="7">Crumbed Peanuts R 7.00<br>
+        <input name="toppings" class="caramelButton" type="checkbox" value="6">Caramel Dip R 6.00<br>
+        <input name="toppings" class="smartiesButton" type="checkbox" value="5">Smarties R 5.00<br>
+        <input name="toppings" class="oreosButton" type="checkbox" value="4">Oreos R 4.00<br>
+        <input name="toppings" class="astrosButton" type="checkbox" value="3">Astros R 3.00<br>
+
+    </div>
+
+    <button class="priceButton" type="button" name="button">Get Price!</button>
+
+    <div class="totalPrice">Price Total: R<span class="totalPriceDisplay"></span></div>
+    
+    <script src="/js/IceCreamWidget.js" charset="utf-8"></script>
+    <script src="/js/IceCreamWidget.dom.js" charset="utf-8"></script>
+
+</body>
+
+<footer>
+    © MRN Websites 2019. All Rights Reserved.
+</footer>
+
+</html>
